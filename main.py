@@ -58,7 +58,7 @@ if __name__ == '__main__':
     print(res)
     # SERVERCHAN_SECRETKEY = os.environ["SERVERCHAN_SECRETKEY"]
     print('sc_key: ', config.TEST_COOKIE)
-     if isinstance(config.SERVERCHAN_SECRETKEY,str) and len(config.SERVERCHAN_SECRETKEY)>0:
+    # if isinstance(config.SERVERCHAN_SECRETKEY,str) and len(config.SERVERCHAN_SECRETKEY)>0:
 
         print('检测到 SCKEY， 准备推送')
         push_to_wechat(text = '什么值得买每日签到',
